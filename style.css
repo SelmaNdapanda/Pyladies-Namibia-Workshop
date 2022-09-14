@@ -336,3 +336,25 @@ hr {
   justify-content: center;
   padding: 40px;
 }
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+}
+
+.footer-desc {
+  font-family: 'Lato', sans-serif;
+  color: #5e5e5e;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.footer a img {
+  width: 20%;
+}
