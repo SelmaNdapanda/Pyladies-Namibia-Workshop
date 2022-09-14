@@ -145,7 +145,7 @@ h1.title {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   text-align: left;
-  font-size: 15;
+  font-size: 15px;
   font-weight: bold;
   padding: 15px;
   color: #5e5e5e;
@@ -456,6 +456,40 @@ hr {
   .last-menu-link {
     text-decoration: none;
   }
+
+  /* Headline Section*/
+  .headline {
+    background-image: url(images/bg-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hello-title,
+  h1.title,
+  .info-desc,
+  .date,
+  .location {
+    margin-left: 100px;
+    width: 60%;
+  }
+
+  .hello-title {
+    padding-bottom: 15px;
+    font-size: 40px;
+  }
+
+  h1.title {
+    font-size: 50px;
+  }
+
+  .location {
+    font-size: 20px;
+  }
+
+
+
+
+
 
 
 }
