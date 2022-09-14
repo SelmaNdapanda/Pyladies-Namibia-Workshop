@@ -58,7 +58,7 @@ const speakers = [
     name: 'Selma Hamutenya',
     description: 'Full stack Developer & student at Microverse',
     image: 'images/selma.jpg',
-    text: 'Selma is an aspiring, young and recent graduate in Computer Science from the University of Namibia, a member of PyData Namibia, Pycon Namibia, PyLadies Namibia and UNAM Robotics Club',
+    text: 'Selma is an aspiring, young and recent graduate in Computer Science from the University of Namibia. She is a member of PyData Namibia, Pycon Namibia, PyLadies Namibia and UNAM Robotics Club',
   },
 ];
 

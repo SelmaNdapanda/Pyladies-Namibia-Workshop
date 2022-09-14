@@ -36,7 +36,7 @@ body {
     cursor: pointer;
     position: absolute;
     z-index: 1000;
-    left: 10%;
+    left: 5%;
     margin: 24px;
     font-size: 2rem;
   }
