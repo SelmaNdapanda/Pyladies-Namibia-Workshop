@@ -491,7 +491,6 @@ hr {
     display: flex;
     flex-direction: row;
     margin: 50px;
-    /* padding: 50px; */
   }
 
   .card {
@@ -529,23 +528,12 @@ hr {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    /* justify-content: center; */
     justify-content: center;
   }
-
-  /* .featured-speakers { 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
-    margin: 0;
-  }  */
   
   .speaker-picture {
     width: 90%;
-    height: 80%;
-    
+    height: 80%; 
   }
 
   .speaker-info {
