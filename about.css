@@ -37,6 +37,45 @@ h1.title {
 .headline a {
     font-weight: bolder;
     color: #000;
+    margin-bottom: 80px;
+}
+
+/* Logo Info Section */
+
+.logo-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    font-family: 'Lato', sans-serif;
+    color: #5e5e5e;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.logo-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30;
+    background: none;
+    margin: 12px;
+}
+
+.logo-desc {
+    text-align: center;
+    padding: 24px;
+    background: none; 
+}
+
+.logo-info a {
+    align-self: center;
+    padding-left: 150px;
+    border: 1px solid #d3d3d3;
+    margin-bottom: 50px;
+}
+
+.logo-info img {
+    width: 30%;
+    align-items: center;
 }
   
 
