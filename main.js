@@ -45,7 +45,8 @@ const speakers = [
     name: 'Elise Kasai',
     description: 'Software Developer at Namibia Broadcasting Corporation (NBC)',
     image: 'images/elise.jpg',
-    text: 'Elise is an aspiring young and recent graduate from the University of Namibia. She was the president of UNAM Computer Society in 2019', },
+    text: 'Elise is an aspiring young and recent graduate from the University of Namibia. She was the president of UNAM Computer Society in 2019',
+  },
   {
     id: '5',
     name: 'Annastasia Shipepe',

@@ -1,96 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    background-color: #f9f9f9;
-    background-size: cover;
+  background-color: #f9f9f9;
+  background-size: cover;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .header-top-bar {
-    display: none;
+  display: none;
 }
 
 .header-bottom-bar {
-    position: fixed;  
+  position: fixed;
 }
 
 .logo,
 .desktop-menu {
-    display: none;
+  display: none;
 }
 
 .burger {
-    display: block;
-    padding-top: 5px;
-    cursor: pointer;
-    position: absolute;
-    z-index: 1000;
-    left: 5%;
-    margin: 24px;
-    font-size: 2rem;
-  }
+  display: block;
+  padding-top: 5px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1000;
+  left: 5%;
+  margin: 24px;
+  font-size: 2rem;
+}
 
 .nav a {
-    margin-bottom: 40px;
-    font-family: "Lato", sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: 0;
-    text-align: left;
-    text-decoration: none;
-    display: block;
-  }
+  margin-bottom: 40px;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
 
 .mobile-menu {
-    display: block;
-    list-style: none;
-    position: fixed;
-    padding: 4rem;
-    top: -120%;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: #d3d3d3;
-    opacity: 0.9;
-  }
+  display: block;
+  list-style: none;
+  position: fixed;
+  padding: 4rem;
+  top: -120%;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #d3d3d3;
+  opacity: 0.9;
+}
 
 .mobile-menu a {
-    display: flex;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    align-items: center;
-    color: #000;
-    padding: 20px;
-    list-style-type: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-decoration: none;
-  }
-  
-  .fa-times::before,
-  .fa-xmark::before {
-    content: "\f00d";
-    color: #272A31;
-  }
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  color: #000;
+  padding: 20px;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.fa-times::before,
+.fa-xmark::before {
+  content: "\f00d";
+  color: #272a31;
+}
 
 .navigation nav.nav-toggle {
-    top: 0;
-  }
+  top: 0;
+}
 
 a.last-menu-link {
   font-family: 'Lato', sans-serif;
@@ -111,7 +111,7 @@ a.last-menu-link {
 }
 
 .hello-title {
-  font-family: 'lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-size: 30px;
   font-weight: bold;
@@ -135,8 +135,6 @@ h1.title {
   color: transparent;
   background-position: 95%;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-font-smoothing: antialiased;
 }
 
 .info-desc {
@@ -211,14 +209,21 @@ hr {
 .web-design,
 .mobile-app,
 .discussion,
-.community 
-{
+.community {
   display: grid;
   grid-template-columns: 1fr 2fr 4fr;
   grid-gap: 5px;
   padding: 15px;
   margin: 12px 24px;
   background-color: rgba(84, 84, 84, 0.5);
+}
+
+.lecture:hover,
+.web-design:hover,
+.mobile-app:hover,
+.discussion:hover,
+.community:hover {
+  border: 2px solid #fff;
 }
 
 .card-title {
@@ -268,7 +273,6 @@ hr {
 .speaker-picture {
   display: flex;
   flex-direction: row;
-  /* gap: 12px; */
   margin: 24px;
 }
 
@@ -371,9 +375,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* margin-bottom: 24px; */
   }
-  
 
   .header-top-bar {
     display: flex;
@@ -401,19 +403,19 @@ hr {
   .header-top-content a {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    font-weight: small;
+    font-weight: 500;
     line-height: 44px;
     color: #fff;
     padding: 24px;
   }
 
-   .navigation {
-    display: grid; 
-    grid-template-columns: 1fr 2fr;  
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 11%;
-  }  
+  }
 
   .burger,
   .mobile-menu {
@@ -422,9 +424,9 @@ hr {
 
   .navigation .logo {
     display: block;
-     margin-left: 150px;  
-    
+    margin-left: 150px;
   }
+
   .logo a img {
     width: 20%;
   }
@@ -434,13 +436,12 @@ hr {
     display: block;
     margin-top: 10px;
   }
-  
+
   .header-bottom-content {
     width: 100%;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-   
     margin-right: 10%;
   }
 
@@ -449,7 +450,7 @@ hr {
     color: #2d2d2d;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
     padding: 7px;
   }
 
@@ -457,7 +458,7 @@ hr {
     text-decoration: none;
   }
 
-  /* Headline Section*/
+  /* Headline Section */
   .headline {
     background-image: url(images/bg-desktop.png);
     background-size: cover;
@@ -495,8 +496,8 @@ hr {
 
   .card {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
-    justify-content: center; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: center;
   }
 
   .button-1 {
@@ -530,10 +531,10 @@ hr {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: center;
   }
-  
+
   .speaker-picture {
     width: 90%;
-    height: 80%; 
+    height: 80%;
   }
 
   .speaker-info {
@@ -543,6 +544,4 @@ hr {
   .speaker-name {
     width: auto;
   }
-
-
 }
