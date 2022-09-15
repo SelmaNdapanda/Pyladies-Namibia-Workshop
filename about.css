@@ -157,3 +157,44 @@ h1.title {
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .active {
+        color: #ec5242;
+    }
+
+    .headline {
+        align-items: center;
+    }
+      
+    .hello-title {
+        display: none;  
+    }
+      
+    h1.title {
+        color: #ec5242;
+        text-align: center;
+        margin-top: 100px;
+    }
+      
+    .info-desc,
+    .please-contact,
+    .headline a {
+        text-align: center;
+    }
+
+    .last-images {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center; 
+        width: 80%;
+    }
+
+      
+    
+    
+
+
+
+
+}
