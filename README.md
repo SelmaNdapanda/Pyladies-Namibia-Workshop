@@ -11,8 +11,8 @@ It is a workshop website buit for PyLadies Namibia
    
 
 # Live Demo 
- - Live demo link : [PyLadies Namibia Workshop 2023](https://www.selmandapanda.github.io/PyLadies-Namibia-Workshop-2023)
- - Video recording link : [Loom video](https://www.loom.com/share/f2a86e8929aa44e68425c94d1481ae17) 
+ - Live demo link : [PyLadies Namibia Workshop 2023](https://selmandapanda.github.io/Capstone-Project-1/) 
+ - Video recording link : [Loom video](https://www.loom.com/share/f2a86e8929aa44e68425c94d1481ae17),
                           [Google drive video](https://drive.google.com/file/d/1EO1_SmWWr4r8tUtd_jLKAREojqmRvPaF/view?usp=sharing)
 
 # Getting Started
