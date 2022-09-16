@@ -495,11 +495,10 @@ hr {
   .program-cards {
     display: flex;
     flex-direction: row;
-    margin-top: 50px; 
+    margin-top: 50px;
     margin-left: 80px;
     margin-right: 50px;
     gap: 1%;
-
   }
 
   .card {
