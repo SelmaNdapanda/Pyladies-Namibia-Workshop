@@ -61,7 +61,7 @@ body {
   padding: 4rem;
   top: -120%;
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background: #d3d3d3;
   opacity: 0.9;
@@ -431,6 +431,10 @@ hr {
     width: 20%;
   }
 
+  .footer a img {
+    width: 20%;
+  }
+
   .desktop-menu {
     width: 100%;
     display: block;
@@ -491,13 +495,18 @@ hr {
   .program-cards {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin-top: 50px; 
+    margin-left: 80px;
+    margin-right: 50px;
+    gap: 1%;
+
   }
 
   .card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     justify-content: center;
+    margin-left: -2.5%;
   }
 
   .button-1 {
@@ -527,6 +536,8 @@ hr {
   /* Speakers Section */
   .speakers-container {
     margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: center;
