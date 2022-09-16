@@ -190,4 +190,8 @@ h1.title {
     justify-content: center;
     width: 80%;
   }
+
+  .footer {
+    background-color: #2d2d2d;
+  }
 }
