@@ -256,6 +256,26 @@ hr {
   border: none;
 }
 
+.button-1:hover {
+  top: calc(50% - 48px / 2);
+  color: #ec5242;
+  background: #fff;
+  border: 1px solid #ec5242;
+  box-sizing: border-box;
+  border-radius: 8px;
+  order: 3;
+  box-shadow: 0 8px 16px rgba(236, 104, 104, 0.856);
+  cursor: pointer;
+}
+
+.button-1:visited {
+  color: #000;
+  background: #ec5242;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
 .link-1 {
   display: none;
 }
@@ -280,6 +300,17 @@ hr {
   box-shadow: -20px -10px rgba(0, 0, 0, 0.5);
   margin: 24px;
   width: 30%;
+  height: 30%;
+  object-fit: contain;
+  transition: all 0.35s ease-in;
+}
+
+.footer a img {
+  width: 20%;
+}
+
+.speaker-picture img:hover {
+  transform: scale(1.2);
 }
 
 .speaker-info {
@@ -359,10 +390,6 @@ hr {
   margin-top: 15px;
 }
 
-.footer a img {
-  width: 20%;
-}
-
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -390,7 +417,7 @@ hr {
     justify-content: flex-end;
     list-style-type: none;
     background: none;
-    margin-right: 10%;
+    margin-right: 3%;
   }
 
   .header-top-content i {
@@ -414,7 +441,6 @@ hr {
     grid-template-columns: 1fr 2fr;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-right: 11%;
   }
 
   .burger,
@@ -425,6 +451,11 @@ hr {
   .navigation .logo {
     display: block;
     margin-left: 150px;
+    transition: all 0.25s ease-in;
+  }
+
+  .logo:hover {
+    transform: scale(2);
   }
 
   .logo a img {
@@ -441,12 +472,13 @@ hr {
     margin-top: 10px;
   }
 
-  .header-bottom-content {
+  .desktop-menu ul {
+    display: flex;
     width: 100%;
     list-style-type: none;
-    display: flex;
     justify-content: space-between;
-    margin-right: 10%;
+    padding-right: 7%;
+    padding-left: 20%;
   }
 
   .menu-link {
@@ -456,10 +488,14 @@ hr {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     padding: 7px;
+    margin-right: 0;
   }
 
   .last-menu-link {
     text-decoration: none;
+    margin-right: 0;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   /* Headline Section */
@@ -532,6 +568,12 @@ hr {
     color: #fff;
   }
 
+  .link-1:hover {
+    color: #ec5242;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
   /* Speakers Section */
   .speakers-container {
     margin-top: 50px;
@@ -540,11 +582,6 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: center;
-  }
-
-  .speaker-picture {
-    width: 90%;
-    height: 80%;
   }
 
   .speaker-info {
