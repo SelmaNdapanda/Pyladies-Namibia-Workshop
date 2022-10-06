@@ -305,6 +305,10 @@ hr {
   transition: all 0.35s ease-in;
 }
 
+.footer a img {
+  width: 20%;
+}
+
 .speaker-picture img:hover {
   transform: scale(1.2);
 }
@@ -384,10 +388,6 @@ hr {
   font-size: 12px;
   font-weight: bold;
   margin-top: 15px;
-}
-
-.footer a img {
-  width: 20%;
 }
 
 @media screen and (min-width: 768px) {
@@ -476,9 +476,8 @@ hr {
     display: flex;
     width: 100%;
     list-style-type: none;
-    display: flex;
     justify-content: space-between;
-    padding-right: 7%; 
+    padding-right: 7%;
     padding-left: 20%;
   }
 
