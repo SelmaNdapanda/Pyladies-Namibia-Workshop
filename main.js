@@ -22,7 +22,7 @@ const speakers = [
     id: '1',
     name: 'Caroline Mulundu',
     description: 'University of Namibia Staff and Software Developer',
-    image: 'images/caroline.jpg',
+    image: 'images/caroline.PNG',
     text: 'Caroline Mulundu won the best award at the 18th common wealth International conference on e-Business for an app she developed.',
   },
 
@@ -30,7 +30,7 @@ const speakers = [
     id: '2',
     name: ' Victoria Hasheela-Mufeti ',
     description: 'University of Namibia Senior Lecturer',
-    image: 'images/victoria.jpg',
+    image: 'images/hasheela_mufeti.PNG',
     text: 'Victoria is a Head of IT Department, and a senior lecturer at the University of Namibia',
   },
   {
@@ -58,7 +58,7 @@ const speakers = [
     id: '6',
     name: 'Selma Hamutenya',
     description: 'Full stack Developer & student at Microverse',
-    image: 'images/selma.jpg',
+    image: 'images/selma.PNG',
     text: 'Selma is an aspiring, young and recent graduate in Computer Science from the University of Namibia. She is a member of PyData Namibia, Pycon Namibia, PyLadies Namibia and UNAM Robotics Club',
   },
 ];

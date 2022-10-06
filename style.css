@@ -300,6 +300,13 @@ hr {
   box-shadow: -20px -10px rgba(0, 0, 0, 0.5);
   margin: 24px;
   width: 30%;
+  height: 30%;
+  object-fit: contain;
+  transition: all 0.35s ease-in;
+}
+
+.speaker-picture img:hover {
+  transform: scale(1.2);
 }
 
 .speaker-info {
@@ -444,6 +451,11 @@ hr {
   .navigation .logo {
     display: block;
     margin-left: 150px;
+    transition: all 0.25s ease-in;
+  }
+
+  .logo:hover {
+    transform: scale(2);
   }
 
   .logo a img {
@@ -571,11 +583,6 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: center;
-  }
-
-  .speaker-picture {
-    width: 90%;
-    height: 80%;
   }
 
   .speaker-info {
