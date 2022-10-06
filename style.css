@@ -557,6 +557,12 @@ hr {
     color: #fff;
   }
 
+  .link-1:hover {
+    color: #ec5242;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
   /* Speakers Section */
   .speakers-container {
     margin-top: 50px;
