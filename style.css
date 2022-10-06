@@ -256,6 +256,26 @@ hr {
   border: none;
 }
 
+.button-1:hover {
+  top: calc(50% - 48px / 2);
+  color: #ec5242;
+  background: #fff;
+  border: 1px solid #ec5242;
+  box-sizing: border-box;
+  border-radius: 8px;
+  order: 3;
+  box-shadow: 0 8px 16px rgba(236, 104, 104, 0.856);
+  cursor: pointer;
+}
+
+.button-1:visited {
+  color: #000;
+  background: #ec5242;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
 .link-1 {
   display: none;
 }
